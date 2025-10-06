@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA Public Lands - Case Study | KKhieu</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="case-study.css">
+</head>
+<body>
+    <div class="header-logo" id="headerLogo">
+        <a href="index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 12px;">
+            <div class="logo-box">
+                <img src="logo.png" alt="Katelyn Logo">
+            </div>
+            <div class="logo-name">
+                <span class="k-first">K</span><span class="collapse">atelyn</span><span class="space"> </span><span class="k-second">K</span><span class="last">hieu</span>
+            </div>
+        </a>
+    </div>
+
+    <nav>
+        <a href="index.html#works">Works</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <main class="case-study">
+        <section class="hero">
+            <div class="container">
+                <a href="index.html" class="back-link">← Back to Works</a>
+                <h1 class="project-title">Visualizing Public Lands at Risk: California's 3rd Congressional District</h1>
+                <p class="project-subtitle">An interactive map that helped mobilize opposition to federal land sales</p>
+                <div class="impact-stat">
+                    <p>Developed interactive map visualization to help mobilize opposition to federal land sales</p>
+                </div>
+                <div class="project-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">Role</span>
+                        <span class="meta-value">Developer Intern</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Organization</span>
+                        <span class="meta-value">Congressman Kevin Kiley's Office</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Timeline</span>
+                        <span class="meta-value">June 2025 (2 weeks)</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Tools</span>
+                        <span class="meta-value">Leaflet.js, GeoJSON, JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-heading">The Problem</h2>
+                <div class="problem-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">250M+</div>
+                        <div class="stat-label">Acres eligible for sale</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">11</div>
+                        <div class="stat-label">Western states affected</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">10</div>
+                        <div class="stat-label">Counties in District 3</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">96%</div>
+                        <div class="stat-label">Public lands in Alpine County</div>
+                    </div>
+                </div>
+
+                <div class="challenge-block">
+                    <h3>The Challenge</h3>
+                    <p>Senate HR 1 provision would have sold 2.2-3.3 million acres of public lands with minimal safeguards. How could we make abstract policy language tangible for constituents?</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section dark-section">
+            <div class="container">
+                <h2 class="section-heading">Counties at Risk</h2>
+                <div class="counties-grid">
+                    <div class="county-card">
+                        <div class="county-percent">96%</div>
+                        <div class="county-name">Alpine</div>
+                    </div>
+                    <div class="county-card">
+                        <div class="county-percent">94%</div>
+                        <div class="county-name">Mono</div>
+                    </div>
+                    <div class="county-card">
+                        <div class="county-percent">92%</div>
+                        <div class="county-name">Inyo</div>
+                    </div>
+                    <div class="county-card">
+                        <div class="county-percent">90%</div>
+                        <div class="county-name">Plumas</div>
+                    </div>
+                    <div class="county-card">
+                        <div class="county-percent">70%</div>
+                        <div class="county-name">Sierra</div>
+                    </div>
+                </div>
+
+                <blockquote class="quote-large">
+                    <p>"Our beautiful public lands are essential to the character of our region, and I will fight to protect them in every way I can."</p>
+                    <cite>— Rep. Kevin Kiley</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-heading">The Solution</h2>
+
+                <div class="solution-showcase">
+                    <div class="screenshot-placeholder">
+                        <img src="Screenshot 2025-10-05 014723.png" alt="Interactive map showing District 3 counties">
+                        <div class="caption">Interactive map with clickable counties and real-time data</div>
+                    </div>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Interactive Selection</h3>
+                        <p>Click counties to see detailed public lands data</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Data Tooltips</h3>
+                        <p>Hover for quick stats without clicking</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Visual Feedback</h3>
+                        <p>Orange highlights and borders for clarity</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Source Citations</h3>
+                        <p>Every stat linked to official documents</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section dark-section">
+            <div class="container">
+                <h2 class="section-heading">Process</h2>
+
+                <div class="process-grid">
+                    <div class="process-step">
+                        <div class="step-number">01</div>
+                        <h3>Research</h3>
+                        <p>Compiled data from county plans and USDA Forest Service</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">02</div>
+                        <h3>Design</h3>
+                        <p>Congressional branding with accessible, minimal UI</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">03</div>
+                        <h3>Build</h3>
+                        <p>Leaflet.js + GeoJSON for fast, interactive maps</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">04</div>
+                        <h3>Deploy</h3>
+                        <p>GitHub Pages with linked source citations</p>
+                    </div>
+                </div>
+
+                <div class="tech-stack-visual">
+                    <div class="tech-badge">Leaflet.js</div>
+                    <div class="tech-badge">GeoJSON</div>
+                    <div class="tech-badge">Vanilla JS</div>
+                    <div class="tech-badge">OpenStreetMap</div>
+                    <div class="tech-badge">GitHub Pages</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-heading">Impact</h2>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">June 11</div>
+                        <div class="timeline-content">
+                            <h3>Provision Released</h3>
+                            <p>Senate releases land sale provision</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">June 2025</div>
+                        <div class="timeline-content">
+                            <h3>Map Development</h3>
+                            <p>Built interactive visualization tool in 2 weeks</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">June 24</div>
+                        <div class="timeline-content">
+                            <h3>Floor Speech</h3>
+                            <p>Rep. Kiley addresses Senate on public lands</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item highlight">
+                        <div class="timeline-date">June 29</div>
+                        <div class="timeline-content">
+                            <h3>Victory</h3>
+                            <p>Sen. Lee withdraws provision</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="impact-metrics">
+                    <div class="metric-large">
+                        <div class="metric-number">10</div>
+                        <div class="metric-label">Counties visualized</div>
+                    </div>
+                    <div class="metric-large">
+                        <div class="metric-number">2 weeks</div>
+                        <div class="metric-label">Development time</div>
+                    </div>
+                </div>
+
+                <blockquote class="quote-large center">
+                    <p>"Created during critical legislative period to help constituents understand the geographic impact of proposed public lands legislation."</p>
+                    <cite>— Project Context</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="content-section dark-section">
+            <div class="container">
+                <h2 class="section-heading">Key Learnings</h2>
+
+                <div class="learnings-grid">
+                    <div class="learning-card">
+                        <h3>What Worked</h3>
+                        <ul>
+                            <li>Simple, focused design</li>
+                            <li>Source citations for credibility</li>
+                            <li>Fast load times</li>
+                        </ul>
+                    </div>
+                    <div class="learning-card">
+                        <h3>Next Time</h3>
+                        <ul>
+                            <li>Mobile optimization</li>
+                            <li>Economic impact data</li>
+                            <li>Social sharing features</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="takeaway-box">
+                    <h3>The Takeaway</h3>
+                    <p>Data visualization isn't about pretty charts—it's about making information actionable. This project demonstrated how geographic data can make complex policy accessible to constituents during critical legislative moments.</p>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/ktkhieu/Public-Land-Map" class="btn btn-primary" target="_blank">View on GitHub →</a>
+                </div>
+            </div>
+        </section>
+            </div>
+        </section>
+
+        <section class="next-project">
+            <div class="container">
+                <h3>Next Project</h3>
+                <a href="index.html#works" class="next-link">View More Projects →</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-text">© 2025 Katelyn. All rights reserved.</div>
+            <div class="footer-links">
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="https://dribbble.com" target="_blank">Dribbble</a>
+                <a href="mailto:hello@example.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
